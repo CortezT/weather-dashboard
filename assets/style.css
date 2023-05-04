@@ -1,0 +1,38 @@
+header {
+    background-color: #000120
+}
+div.title {
+    
+    color: white;
+    text-align: center;
+}
+div.title h1 {
+    padding: 10px;
+}
+
+main.dashboard {
+    background-color: rgb(247, 247, 247);
+}
+
+div.recent-searches h2 {
+    font-size: 1.2rem;
+}
+
+div.cityList {
+    margin-top: 20px;
+}
+
+
+div.currentWeather {
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.card {
+    background-color: #02254d;
+    color: rgb(255, 255, 255);
+}
+
+.text-muted {
+    color: white !important;
+}

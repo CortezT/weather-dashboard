@@ -30,6 +30,7 @@ div.currentWeather {
 
 .card {
     background-color: #02254d;
+    color: rgb(255, 255, 255);
 }
 
 .text-muted {

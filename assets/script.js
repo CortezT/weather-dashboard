@@ -137,7 +137,7 @@ $(document).ready(function () {
                     $(`div.day-${i} .card-title`).text(moment.unix(currDay.dt).format('L'));
                     $(`div.day-${i} .weekDay-img`).attr(
                         'src',
-                        `http://openweathermap.org/img/wn/${currDay.weather[0].icon}.png`
+                        `https://openweathermap.org/img/wn/${currDay.weather[0].icon}.png`
                     ).attr('alt', currDay.weather[0].description);
                     $(`div.day-${i} .weekDay-temperature`).text(((currDay.temp.day - 273.15) * 1.8 + 32).toFixed(1));
                     $(`div.day-${i} .weekDay-humidity`).text(currDay.humidity);
@@ -150,7 +150,7 @@ $(document).ready(function () {
             var formattedDate = moment.unix(response.dt).format('L');
             dateEl.text(formattedDate);
             var weatherIcon = response.weather[0].icon;
-            weatherIconEl.attr('src', `http://openweathermap.org/img/wn/${weatherIcon}.png`).attr('alt', response.weather[0].description);
+            weatherIconEl.attr('src', `https://openweathermap.org/img/wn/${weatherIcon}.png`).attr('alt', response.weather[0].description);
             temperatureEl.html(((response.main.temp - 273.15) * 1.8 + 32).toFixed(1));
             humidityEl.text(response.main.humidity);
             windEl.text((response.wind.speed * 2.237).toFixed(1));

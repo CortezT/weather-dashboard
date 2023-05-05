@@ -20,7 +20,7 @@ https://cortezt.github.io/weather-dashboard/
  ## Credits
 https://www.meteomatics.com/en/weather-api/?msclkid=f046a855ed151e467e58cc06f7b50688&utm_source=bing&utm_medium=cpc&utm_campaign=English%20speaking%20competitors&utm_term=api%20openweathermap&utm_content=Competitors
 
-
+https://openweathermap.org/api/one-call-3
 
  
  ## Corrisponding developers

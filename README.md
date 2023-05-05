@@ -16,10 +16,11 @@ Used to see the weather up to five days from the current day in a city.
 
 ![Weather dashboard ss](https://user-images.githubusercontent.com/126823522/236102944-34276e8b-58b9-4cbf-aa58-3773dce79cc7.jpg)
 
+https://cortezt.github.io/weather-dashboard/
  ## Credits
 https://www.meteomatics.com/en/weather-api/?msclkid=f046a855ed151e467e58cc06f7b50688&utm_source=bing&utm_medium=cpc&utm_campaign=English%20speaking%20competitors&utm_term=api%20openweathermap&utm_content=Competitors
 
-
+https://openweathermap.org/api/one-call-3
 
  
  ## Corrisponding developers
